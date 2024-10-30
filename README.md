@@ -1,6 +1,6 @@
 # Ktor Payment QR Server
 
-A Kotlin Multiplatform (KMP) web server that simplifies bank transfers by displaying payment QR codes. Users can either scan the QR code with their banking app or tap it to automatically open their banking app with pre-filled payment details. Built with KMP, this solution works across multiple platforms and provides a seamless payment experience.
+A Ktor web server designed to streamline bank transfers by displaying payment QR codes. Simply share this website with anyone who wants to send you money, and they can either scan the QR code with their banking app or tap it to open their app directly with pre-filled payment details for an easy, fast transaction.
 
 ## ✨ Features
 
@@ -66,6 +66,9 @@ ktor:
     host: 0.0.0.0
 
 ```
+
+## Deployment
+The server is hosted on my [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) and deployed at https://payment.phpduy.info, thanks to [Cloudflare Tunnel](https://www.cloudflare.com/en-gb/products/tunnel/).
 
 ## 📄 License
 
