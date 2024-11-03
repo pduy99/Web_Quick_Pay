@@ -1,7 +1,0 @@
-ktor:
-  application:
-    modules:
-      - com.helios.web.quick_pay.ApplicationKt.main
-  deployment:
-    port: 8080
-    host: 0.0.0.0

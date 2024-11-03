@@ -10,7 +10,11 @@ import io.ktor.server.plugins.defaultheaders.*
 import io.ktor.server.plugins.partialcontent.*
 import io.ktor.server.resources.*
 
-fun Application.main() {
+fun main(args: Array<String>) {
+    io.ktor.server.netty.EngineMain.main(args)
+}
+
+fun Application.module() {
     // This adds the Date and Server headers to each response and would allow you to configure
     // additional headers served to each response.
     install(DefaultHeaders)
